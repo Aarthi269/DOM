@@ -10,8 +10,6 @@ function changeText() {
   
   function changeImage() {
     const img = document.getElementById("image");
-  
-    // Check if the current image path is correct
     img.src = "image/image.png?" + new Date().getTime(); 
   }
   
